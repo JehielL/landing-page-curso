@@ -1,0 +1,39 @@
+/* WelcomeMessage.css */
+
+.welcome-message {
+  text-align: center;
+  margin-top:  75px;
+  margin-bottom: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
+  color:rgb(190, 31, 31);
+ 
+}
+
+.welcome-message h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.welcome-message img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.message-animation {
+  animation: fadeInOut 3s linear infinite; /* Ajusta la duración y otros valores según tus preferencias */
+}

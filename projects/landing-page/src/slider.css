@@ -1,0 +1,62 @@
+.slider-container {
+  height: 600px;
+  overflow: hidden;
+  margin-top: 10px;
+  position: relative;
+  border-radius: 20px  ;
+}
+
+.slider-img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  position: relative; 
+  border-radius: 20px 20px;
+  
+}
+
+.slider-link {
+  position: relative;
+  display: inline-block;
+  width: 80%;
+  height: 80%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.slider-link.active {
+  cursor: pointer; /* Cambia el cursor al pasar por encima de la imagen activa */
+}
+
+.slider-link.active::before {
+  content: ''; /* Pseudo elemento para cubrir toda la imagen activa */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.1); /* Cambia el fondo al pasar por encima */
+  z-index: -1; /* Coloca el fondo detrás de la imagen */
+  border-radius: 0 0 20px;
+}
+
+.slider-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.slider-description {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.slider-buttons {
+  text-align: center;
+}
+
+.slider-button {
+  margin: 0 10px;
+}

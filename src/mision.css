@@ -1,0 +1,96 @@
+/* Mision.css */
+.mision-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+  
+  .mision-content {
+    
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .mision-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .mision-content p {
+    font-size: 24px;
+    color: #666;
+    overflow-x: auto; 
+  
+  }
+  
+  .btn-primary {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 23px;
+    transition: 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #00a09b;
+  }
+  
+  .background {
+    
+    z-index: 1001;
+    margin-bottom: 50px; 
+    
+  }
+  
+  .gallery {
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    perspective: 800px;
+    
+  }
+  
+  .card {
+    position: relative;
+    width: 150px;
+    height: 170px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    transform-style: preserve-3d;
+    margin-right: 10px;
+    z-index: index 1;
+    border: none;
+    border-radius: 20px;
+    
+  }
+  
+  .card:hover {
+    transform: rotateY(0.5turn);
+  }
+  
+  .card__side {
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    transition: 1s ease-in-out;
+  }
+  
+  .card__side--back {
+    transform: rotateY(0.5turn);
+  }
+  
+  .card__side > img {
+    width: 150px;
+    height: 170px;
+    object-fit: cover;
+  }
+  

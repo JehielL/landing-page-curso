@@ -1,0 +1,16 @@
+/* Estilos CSS para el botón de WhatsApp */
+.whatsapp-button {
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    background-color: #25d366;
+    color: #fff;
+    padding: 25px; /* Aumenta el padding para hacer el botón más grande */
+    text-decoration: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 1001;
+}
+

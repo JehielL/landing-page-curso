@@ -1,0 +1,25 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@keyframes animatedBackground {
+  0% {
+    background-color: #ffffff;
+  }
+  50% {
+    background-color: #afafaf;
+  }
+  100% {
+    background-color: #cfc9c9;
+  }
+}
+
+body {
+  animation: animatedBackground 5s infinite alternate;
+}
+
+/* Ajustes para pantallas grandes */
+body {
+  font-size: 16px;
+}
+

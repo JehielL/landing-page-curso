@@ -1,0 +1,30 @@
+  .footer-container {
+    background-color: #000;
+    color: #fff;
+    padding: 10px ; /* Cambia el valor de padding aquí */
+    text-align: center;
+    position: static;
+    bottom: 0;
+    left: 0;
+    width: 100%;   
+    z-index: 1000;
+    margin-bottom: 0px;
+    margin-top: 20px;
+  }
+  
+  .img {
+    background-color: transparent;
+    width: 10px;
+    height: auto;
+    display: block;
+    margin: 0 auto 5px;
+  }
+  
+  .text-container {
+    margin-top: 10px;
+  }
+  
+  .p {
+    margin: 0;
+  }
+  

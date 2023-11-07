@@ -1,0 +1,112 @@
+.header-style {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(13, 177, 177);
+  color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  z-index: 1001;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.header-style a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 400;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+}
+
+.header-style ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.header-style ul.nav-links {
+  margin-right: auto;
+}
+
+.header-style ul li {
+  margin-right: 20px;
+}
+
+.header-style .social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.header-style .social-icons a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* Estilos para el menú hamburguesa en pantallas pequeñas (menor a 768px) */
+@media (max-width: 768px) {
+  .header-style {
+    display: flex; /* Asegura que el encabezado sea un contenedor flexbox */
+  }
+
+  .header-style .nav-links {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: rgb(13, 177, 177);
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-in-out;
+    z-index: 1002;
+  }
+
+  .header-style .nav-links.open {
+    display: block;
+    max-height: 400px;
+  }
+
+  .header-style .mobile-menu-toggle {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: rgb(13, 177, 177);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1002;
+    margin-right: 10px; /* Agrega margen derecho para separar el botón del encabezado */
+  }
+
+  .header-style .mobile-menu-toggle .bar {
+    background-color: #fff;
+    height: 3px;
+    width: 30px;
+    margin: 3px auto;
+    transition: background-color 0.3s ease;
+  }
+
+  .header-style .nav-links.open ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .header-style .nav-links.open ul li {
+    margin-bottom: 20px;
+  }
+}

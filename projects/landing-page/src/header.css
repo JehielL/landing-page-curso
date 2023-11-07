@@ -1,0 +1,119 @@
+/* style-header.css */
+
+
+
+.header-style {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #180606;
+  color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  z-index: 1001;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  border-radius: 30px;
+}
+
+.header-style a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 400;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+}
+
+.header-style ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.header-style ul.nav-links {
+  margin-right: auto;
+}
+
+.header-style ul li {
+  margin-right: 20px;
+}
+
+.header-style .social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.header-style .social-icons a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* Estilos para el menú hamburguesa en pantallas pequeñas (menor a 768px) */
+@media (max-width: 768px) {
+  .header-style ul.nav-links {
+    display: none;
+  }
+
+  .header-style .social-icons {
+    display: none;
+  }
+
+  .mobile-menu-toggle {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute; /* Agregamos posición absoluta */
+    top: 10px; /* Ajusta la posición superior según tus necesidades */
+    right: 10px; /* Ajusta la posición derecha según tus necesidades */
+  }
+
+  .mobile-menu-toggle .bar {
+    background-color: #fff;
+    height: 3px;
+    width: 30px;
+    margin: 3px auto;
+    transition: background-color 0.3s ease;
+  }
+
+  .mobile-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: #180606;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-in-out;
+  }
+
+  .mobile-menu.open {
+    max-height: 400px;
+  }
+
+  .mobile-menu ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .mobile-menu ul li {
+    margin-bottom: 20px;
+  }
+}
+
+
