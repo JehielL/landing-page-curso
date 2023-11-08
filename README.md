@@ -1,8 +1,9 @@
-# React + Vite
+##PASO 1 
+Copiar rama.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##PASO 2 
+Tener instalado vite, node.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##PASO 3 
+En la carpeta landing-page ejecutar desde la consola de comando
+npm run dev.
