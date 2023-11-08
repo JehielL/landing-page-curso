@@ -14,7 +14,7 @@ import WhatsAppButton from './WhatsappButton.jsx';
 
 function App() {
   const images = [
-    'src/assets/img/imgCurso1.png',
+    'https://drive.google.com/file/d/1PRqBRYQJGeuv0YFts8fi7ttZx8FzmjL0/view?usp=drive_link',
     'src/assets/img/imgCurso2.jpeg',
     'src/assets/img/imgCurso3.jpg',
     'src/assets/img/imgCurso4.jpeg',

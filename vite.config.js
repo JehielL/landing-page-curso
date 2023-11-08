@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: 'https://jehiell.github.io/landing-page-curso/',
+  base: "/landing-page-curso/",
   plugins: [react()],
 })
