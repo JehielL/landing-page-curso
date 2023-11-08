@@ -6,9 +6,9 @@ function Mision() {
       <div className="mision-content">
         <h2>Nuestra Misión</h2>
         <p>
-         En nuestro curso, tenemos un objetivo claro: buscar oportunidades de empleo. Durante este proceso, hemos tenido  la fortuna de colaborar con la Fundación Adecco. Nuestra determinación está respaldada por la valiosa guía del  profesor <a href="https://www.linkedin.com/in/alansastre/" target="_blank" rel="noreferrer">Alan Sastre</a> y el apoyo de Cristina en la     orientación laboral.
+         En nuestro curso, tenemos un objetivo claro: buscar oportunidades de empleo. Durante este proceso, hemos tenido  la fortuna de colaborar con la Fundación Adecco. Nuestra determinación está respaldada por la valiosa guía del  profesor <a href="https://www.linkedin.com/in/alansastre/" target="_blank" rel="noreferrer">Alan Sastre</a> y el apoyo de Cristina soler en la     orientación laboral.
          Nos enfocamos en adquirir los conocimientos necesarios para ingresar en la industria de Tecnologías de la Información (IT), lo que implica comprender los aspectos técnicos y desarrollar habilidades de trabajo en equipo. Nuestra intención es mantenernos unidos y colaborar de manera efectiva para alcanzar nuestros objetivos laborales.
-          </p>
+          </p> 
         <button className="btn-primary">Más información</button>
 
         </div>

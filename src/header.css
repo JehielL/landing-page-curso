@@ -90,7 +90,7 @@
     padding: 10px;
     border-radius: 5px;
     z-index: 1002;
-    margin-right: 10px; /* Agrega margen derecho para separar el botón del encabezado */
+    margin-right: 10px; 
   }
 
   .header-style .mobile-menu-toggle .bar {

@@ -5,7 +5,7 @@
     right: 60px;
     background-color: #25d366;
     color: #fff;
-    padding: 25px; /* Aumenta el padding para hacer el botón más grande */
+    padding: 5px; /* Aumenta el padding para hacer el botón más grande */
     text-decoration: none;
     border-radius: 50%;
     display: flex;
@@ -13,4 +13,11 @@
     transition: background-color 0.3s ease, transform 0.3s ease;
     z-index: 1001;
 }
+.whatsapp-button:hover{
+    transform: scale(3.0);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+    
+   
+    
 
+}

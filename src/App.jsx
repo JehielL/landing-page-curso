@@ -7,10 +7,8 @@ import FooterLanding from './footer';
 import Skills from './skills';
 import Mision from './mision'
 import './index.css';
+import FeatureInfo from './FeatureInfo';
 import WhatsAppButton from './WhatsappButton.jsx';
-
-
-
 
 
 function App() {
@@ -30,6 +28,51 @@ function App() {
     ''
   ];
 
+  const features = [
+    {
+      title: 'No construiremos la casa por la ventana.',
+      content: 'Nuestros primeros pasos estaran pautados por la busqueda de conocimientos para afianzar las bases de la programación, utilizando herramientas como PEeInt, podremos aprender operadores, tipos de datos, diferentes paradigmas de programación y mucho más.',
+      image: 'https://tutorialesdeaplicaciones.com/wp-content/uploads/2020/03/aprendiendo-a-programar_Mesa-de-trabajo-1.png',
+      buttonText: 'Ver diapositivas',
+      buttonLink: '/disenos',
+    },
+    {
+      title: 'Mente Sana = Trabajo sano.',
+      content: 'Junto a la fundación Adecco, de la mano de CRISTINA SOLER, trabajaremos tambien nuestros soft-skills, como lo son, la empatía, el trabajo en equipo, la responsabilidad, el liderazgo y la resolución de problemas.',
+      image: 'https://staffing.com.co/wp-content/uploads/2023/07/18-Julio-Blog-scaled.jpg',
+      buttonText: 'Accede a nuestros talleres.',
+      buttonLink: '/envios',
+    },
+    {
+      title: 'Equipo de Especialistas.',
+      content: 'De la mano de Certidevs, contamos con el apoyo de profesionales capacitados para transformarnos en los futuros programadores, talleres, pruebas tecnicas, mentorias personalizadas, nos ayudaran a completar nuestra meta.',
+      image: 'https://certidevs.com/wp-content/uploads/2023/03/CertiDevs-Dark.svg',
+      buttonText: 'Contacta con Certidevs',
+      buttonLink: 'https://certidevs.com/',
+    },
+    {
+      title: '¿Y Nuestros Proyectos?',
+      content: 'No desespereis, este viaje apenas comienza... Exactamente el 17 de mayo estaremos presentando nuestros proyectos, proximamente los podras encontrar aqui.',
+      image: 'https://cdn-icons-png.flaticon.com/512/3858/3858564.png',
+      buttonText: 'Ver proyectos',
+      buttonLink: '/catalogo',
+    },
+    {
+      title: 'Empleabilidad y Networking.',
+      content: 'Fundacion Adecco, coloca a tus manos su plataforma, para la busqueda activa de empleo, ya si deseas experimentar en un nuevo campo o deseas ampliar tu experiencia actual, colocamos a disposición las herramientas de cada uno para la busqueda activa de empleo y el Networking.',
+      image: 'https://empleo.fundacionadecco.org/img/logo.png',
+      buttonText: '¡Consigue Empleo!',
+      buttonLink: 'https://www.adecco.es',
+    },
+    {
+      title: 'Proximos Eventos.',
+      content: 'Pondremos a disposiciones de los estudiantes, los futuros eventos de tecnología en la comunidad de madrid, eventos internacionales online y eventos de Adecco, con el fin de mejorar nuestro entendimiento del mundo tecnologico.',
+      image: 'https://techsummitme.com/wp-content/uploads/2023/10/TechSummit-1.png',
+      buttonText: 'Ver Ferias tecnologicas',
+      buttonLink: 'https://www.nferias.com/tecnologia/espana/',
+    },
+  ];
+
   return (
     <div className="App">
       <div className='header-container'><Header /></div>
@@ -41,7 +84,18 @@ function App() {
       </div>
       <div><Skills/></div>
       <div className='background'><Mision/></div> {/* Mision antes del Footer */}
-      
+      {features.map((feature, index) => (
+       <FeatureInfo
+       key={index}
+       title={feature.title}
+       content={feature.content}
+       image={feature.image}
+       buttonText={feature.buttonText}
+       buttonLink={feature.buttonLink}
+       className={index === 0 ? "first-feature" : ""}  
+     />
+        
+      ))}
       <div className='footer'><FooterLanding /></div>
      <div> <WhatsAppButton /> </div>
     </div>

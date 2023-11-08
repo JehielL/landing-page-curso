@@ -17,7 +17,7 @@
     margin-bottom: 20px;
     width: 100%;
     text-align: center;
-    color:black;
+    color:#333;
     
   }
   
@@ -36,8 +36,8 @@
   }
   
   .skill:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.2);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
     background-color: inherit;
     color: #fff;
   }
@@ -53,4 +53,7 @@
     font-size: 36px;
     color: rgb(0, 128, 160);
   }
-  
+  a {
+    pointer-events: auto;
+    color: rgb(0, 128, 160);
+  }
