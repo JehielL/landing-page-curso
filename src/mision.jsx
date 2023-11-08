@@ -29,21 +29,21 @@ function Mision() {
             </div>
             <div className='card'>
                 <div className='card__side'>
-                    <img src="/src/assets/img/card3.png" 
+                    <img src="https://i.ibb.co/xGg4SDK/card3.png" 
                     alt="" />
                 </div>
                 <div className='card__side card__side--back'>
-                    <img src="/src/assets/img/card4.png" 
+                    <img src="https://i.ibb.co/6Rvrddv/card4.png" 
                     alt="" />
                 </div>
             </div>
             <div className='card'>
                 <div className='card__side'>
-                    <img src="/src/assets/img/card5.png" 
+                    <img src="https://i.ibb.co/mX8TwJn/card5.png" 
                     alt="" />
                 </div>
                 <div className='card__side card__side--back'>
-                    <img src="/src/assets/img/card6.png" 
+                    <img src="https://i.ibb.co/W6V8MX4/card6.png" 
                     alt="" />
                 </div>
                 

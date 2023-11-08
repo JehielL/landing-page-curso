@@ -14,12 +14,12 @@ import WhatsAppButton from './WhatsappButton.jsx';
 
 function App() {
   const images = [
-    'https://drive.google.com/file/d/1PRqBRYQJGeuv0YFts8fi7ttZx8FzmjL0/view?usp=drive_link',
-    'src/assets/img/imgCurso2.jpeg',
-    'src/assets/img/imgCurso3.jpg',
-    'src/assets/img/imgCurso4.jpeg',
-    'src/assets/img/imgCurso5.jpeg',
-    'src/assets/img/imgCurso6.jpeg',
+    'https://i.ibb.co/ZN8gSMq/img-Curso1.png',
+    'https://i.ibb.co/FVQ7B25/img-Curso2.jpg',
+    'https://i.ibb.co/P5rFGSh/img-Curso3.jpg',
+    'https://i.ibb.co/rtLMfGL/img-Curso4.jpg',
+    'https://i.ibb.co/41RmJbv/img-Curso5.jpg',
+    'https://i.ibb.co/zbjySp6/img-Curso6.jpg',
   ];
 
   const links = [

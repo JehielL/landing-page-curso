@@ -5,7 +5,7 @@ const FooterLanding = () => {
   return (
     <footer className="footer-container">
       <img
-  src="src/assets/img/logo-tech2.png"
+  src="https://i.ibb.co/ynhSkdc/logo-tech2.png"
   alt="Logo"
   className="img-fluid"
   style={{ maxWidth: '150px' }} // Ajusta el valor según sea necesario
