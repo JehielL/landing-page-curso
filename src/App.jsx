@@ -11,6 +11,7 @@ import FeatureInfo from './FeatureInfo';
 import WhatsAppButton from './WhatsappButton.jsx';
 
 
+
 function App() {
   const images = [
     'src/assets/img/imgCurso1.png',
@@ -101,5 +102,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App
