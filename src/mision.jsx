@@ -18,11 +18,11 @@ function Mision() {
             <div className='card'>
                 <div className='card__side'>
                     <img 
-                    src="/src/assets/img/card1.png" 
+                    src="https://i.ibb.co/XDWVz3h/card1.png" 
                     alt="card1front" />
                 </div>
                 <div className='card__side card__side--back'>
-                    <img src="/src/assets/img/card2.png" 
+                    <img src="https://i.ibb.co/Tbj9tW9/card2.png" 
                     alt="card1back" />
                   
                 </div>
