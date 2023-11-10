@@ -2,18 +2,18 @@
 
 .skills {
     background-color: inherit;
-    padding: 20px;
+    padding: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    z-index: 3;
+    z-index: 1001;
     margin-bottom: 80px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     
   }
   
   .skills h2 {
-    font-size: 28px;
+    font-size: 45px;
     margin-bottom: 80px;
     width: 100%;
     text-align: center;
@@ -43,7 +43,7 @@
   }
   
   .skill p {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 10px;
     text-align: center;
     color: rgb(0, 128, 160);
@@ -60,7 +60,7 @@
 
   @media(max-width:600px){
 
-    .skills {
+     .skills {
       background-color: inherit;
       padding: 20px;
       display: flex;

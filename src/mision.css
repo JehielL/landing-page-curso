@@ -15,7 +15,7 @@
   }
   
   .mision-content h2 {
-    font-size: 30px;
+    font-size: 60px;
     margin-bottom: 20px;
     color: #333;
     text-align: center;
@@ -78,7 +78,7 @@
     z-index: index 1000;
     border: none;
     border-radius: 20px;
-    margin-top: 150px;
+    margin-top: 200px;
  }
   
   .card:hover {
@@ -106,3 +106,20 @@
     border-radius: 20px;
   }
   
+
+  @media(max-width:900px){
+    .mision-content h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
+      color: #333;
+      text-align: center;
+    }
+  }
+  @media(max-width:700px){
+    .mision-content h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
+      color: #333;
+      text-align: center;
+    }
+  }
