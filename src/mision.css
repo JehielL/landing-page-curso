@@ -1,7 +1,7 @@
 /* Mision.css */
 .mision-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     padding: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
@@ -18,13 +18,14 @@
     font-size: 30px;
     margin-bottom: 20px;
     color: #333;
-    margin-left: 600px;
+    text-align: center;
   }
   
   .mision-content p {
     font-size: 24px;
     color: #666;
     overflow-x: auto; 
+    text-align: justify;
   
   }
   
@@ -38,10 +39,14 @@
     border-radius: 23px;
     transition: 0.3s;
     margin-left: 0%;
+    margin: 20px auto ;
+    display: flex;
+    z-index: 1005;
   }
   
   .btn-primary:hover {
     background-color: #00a09b;
+  
   }
   
   .background {
@@ -54,25 +59,27 @@
   .gallery {
     margin: auto;
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 16px;
     perspective: 800px;
+    margin-top: 20px;
     
   }
   
   .card {
-    position: relative;
+    flex-direction: row;
     width: 150px;
     height: 170px;
     cursor: pointer;
     transition: 1s ease-in-out;
-    transform-style: preserve-3d;
+    transform-style: preserve-3d;;
     margin-right: 10px;
-    z-index: index 1;
+    z-index: index 1000;
     border: none;
     border-radius: 20px;
-    margin-top: 100px;
-  }
+    margin-top: 150px;
+ }
   
   .card:hover {
     transform: rotateY(0.5turn);
@@ -96,5 +103,6 @@
     width: 150px;
     height: 170px;
     object-fit: cover;
+    border-radius: 20px;
   }
   

@@ -1,4 +1,8 @@
   .footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background-color: #000;
     color: #fff;
     padding: 10px ; 
@@ -10,18 +14,20 @@
     z-index: 1000;
     margin-bottom: 0px;
     margin-top: 20px;
+    margin-right: 50%;
+   
+    
   }
   
   .img {
     background-color: transparent;
     width: 10px;
-    height: auto;
-    display: block;
-    margin: 0 auto 5px;
+    
   }
   
   .text-container {
     margin-top: 10px;
+    margin-left: 10px;
   }
   
   .p {

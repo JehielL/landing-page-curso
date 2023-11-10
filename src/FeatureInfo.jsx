@@ -37,8 +37,11 @@ const FeatureInfo = ({ title, content, image, buttonText, buttonLink, className,
     <div
       ref={featureRef}
       className={`feature-container ${className} ${isVisible ? 'revealed' : ''} ${animationClass}`}
+      
     >
+      
       <div className="feature-content">
+        
         <h2>{title}</h2>
         <p>{content}</p>
         <a href={buttonLink} className="feature-button">

@@ -11,7 +11,10 @@ const FooterLanding = () => {
   style={{ maxWidth: '150px' }} // Ajusta el valor según sea necesario
 />
 
-      <p>Tech-Chef Todos los derechos reservados &copy; 2023</p>
+     <div className='text-container'> <p>Tech-Chef Todos los derechos reservados &copy; 2023</p>
+      <p>Agradecimientos a CertiDevs.</p>
+      <p>Con la colaboración de Fundación Adecco.</p>
+      <p>Es un proyecto financiado por la Comunidad de Madrid a través de la Agencia para el empleo.</p></div>
     </footer>
   );
 };

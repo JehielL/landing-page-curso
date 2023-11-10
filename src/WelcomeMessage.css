@@ -6,11 +6,12 @@
   margin-bottom: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
   color:rgb(4, 143, 156);
+  z-index: 1;
  
 }
 
 .welcome-message h1 {
-  font-size: 65px;
+  font-size: 45px;
   font-weight: bold;
 }
 
@@ -37,4 +38,27 @@
 
 .message-animation {
   animation: fadeInOut 3s linear infinite; /
+}
+
+@media(max-width:780px){
+  .welcome-message {
+    text-align: center;
+    margin-top:  75px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color:rgb(4, 143, 156);
+    z-index: 1;
+   
+  }
+  
+  .welcome-message h1 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .welcome-message img {
+    width: 100px;
+    margin-bottom: 20px;
+    
+  } 
 }

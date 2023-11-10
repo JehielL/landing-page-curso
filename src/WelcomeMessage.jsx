@@ -6,7 +6,7 @@ class WelcomeMessage extends Component {
     title: "Hola",
     messages: [ 
       "Bienvenidos al curso de Java con Adecco!",
-      "Aqui comienza la transformación tu vida",
+      "Aqui comienza la transformación de tu vida",
       "¡Únete a la revolución tecnológica!",
       "¿Deseas ser parte de ella?",
       "¡Nos vemos en mayo!",
