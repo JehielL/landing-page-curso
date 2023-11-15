@@ -85,7 +85,6 @@ function App() {
       
       <div><Skills/></div>
       <div className='background'><Mision/></div> {/* Mision antes del Footer */}
-      <h1 className='titulo'>Road-Map</h1>
       {features.map((feature, index) => (
        
 

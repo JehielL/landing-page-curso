@@ -7,7 +7,7 @@ const FeatureInfo = ({ title, content, image, buttonText, buttonLink, className,
 
   useEffect(() => {
     const feature = featureRef.current;
- 
+
     const revealFeature = () => {
       if (feature) {
         const featureTop = feature.getBoundingClientRect().top;
@@ -32,18 +32,16 @@ const FeatureInfo = ({ title, content, image, buttonText, buttonLink, className,
 
   const fromLeft = index % 2 === 0;
   const animationClass = fromLeft ? 'from-left' : 'from-right';
-    
-  return (
 
-    
+  return (
     <div
-    
       ref={featureRef}
       className={`feature-container ${className} ${isVisible ? 'revealed' : ''} ${animationClass}`}
       
     >
-       
+      
       <div className="feature-content">
+        
         <h2>{title}</h2>
         <p>{content}</p>
         <a href={buttonLink} className="feature-button">

@@ -5,7 +5,7 @@
     right: 60px;
     background-color: #25d366;
     color: #fff;
-    padding: 10px; 
+    padding: 5px; /* Aumenta el padding para hacer el botón más grande */
     text-decoration: none;
     border-radius: 50%;
     display: flex;
