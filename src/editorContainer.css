@@ -1,0 +1,40 @@
+.editor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding-top: 5%;
+    padding-left: 65px;
+  }
+  
+  .editor-container h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    padding-left: 100px; 
+  }
+  
+  .live-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: blanchedalmond;
+    flex: 1; 
+     
+  }
+
+  .live-preview{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: blanchedalmond;
+    flex: 1; 
+  }
+  
+  

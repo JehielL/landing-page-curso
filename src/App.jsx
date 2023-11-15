@@ -9,10 +9,12 @@ import Mision from './mision'
 import './index.css';
 import FeatureInfo from './FeatureInfo';
 import WhatsAppButton from './WhatsappButton.jsx';
-
+import EditorWithPreview from './editorWithPreview.jsx';
+import './editorContainer.css'
 
 
 function App() {
+
   
   const images = [
     'https://i.ibb.co/ZN8gSMq/img-Curso1.png',
@@ -77,20 +79,17 @@ function App() {
 
   return (
     <div className="App">
-      <div className='header-container'><Header /> </div>
-      <div className='welcome-message'><WelcomeMessage  /></div>
+      <div className='header-container'><Header /></div>
+      <div className='welcome-message'><WelcomeMessage style={{ position: 'sticky', top: '10px', zIndex: 100 }} /></div>
       <div className="slider-container">
       <Slider images={images} links={links} />
       </div>
-      
+      <div className="container-fluid">
+      </div>
       <div><Skills/></div>
       <div className='background'><Mision/></div> {/* Mision antes del Footer */}
       {features.map((feature, index) => (
-       
-
-    
        <FeatureInfo
-       
        key={index}
        title={feature.title}
        content={feature.content}
@@ -101,8 +100,18 @@ function App() {
      />
         
       ))}
+
+      <div className='editor-container'>
+        <EditorWithPreview></EditorWithPreview>
+      </div>
       <div className='footer'><FooterLanding /></div>
-     <div> <WhatsAppButton />  </div>
+     <div> <WhatsAppButton /> </div>
+     
+     
+     
+  
+
+     
     </div>
   );
 }
