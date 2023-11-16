@@ -43,7 +43,7 @@ const EditorWithPreview = () => {
           <LiveEditor />
         </div>
         <div className="live-error">
-          <LiveError />
+          
         </div>
       </LiveProvider>
     </div>
