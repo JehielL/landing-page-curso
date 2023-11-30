@@ -9,8 +9,6 @@ import Mision from './mision'
 import './index.css';
 import FeatureInfo from './FeatureInfo';
 import WhatsAppButton from './WhatsappButton.jsx';
-import EditorWithPreview from './editorWithPreview.jsx';
-import './editorContainer.css'
 
 
 function App() {
@@ -101,9 +99,6 @@ function App() {
         
       ))}
 
-      <div className='editor-container'>
-        <EditorWithPreview></EditorWithPreview>
-      </div>
       <div className='footer'><FooterLanding /></div>
      <div> <WhatsAppButton /> </div>
      
