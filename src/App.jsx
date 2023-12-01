@@ -9,6 +9,7 @@ import Mision from './mision'
 import './index.css';
 import FeatureInfo from './FeatureInfo';
 import WhatsAppButton from './WhatsappButton.jsx';
+import SpotifyPlaylist from './spotifyPlaylist.jsx';
 
 
 function App() {
@@ -98,6 +99,7 @@ function App() {
      />
         
       ))}
+      <div><SpotifyPlaylist></SpotifyPlaylist></div>
 
       <div className='footer'><FooterLanding /></div>
      <div> <WhatsAppButton /> </div>
